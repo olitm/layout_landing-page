@@ -1,16 +1,16 @@
 .header {
+  box-sizing: border-box;
   width: 100%;
   height: 100vh;
 
-  box-sizing: border-box;
   padding: 25px 20px;
+
+  z-index: 10;
 
   background-image: url(../images/background.png);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-
-  z-index: 10;
 
   @include on-table {
     padding: 50px 72px;

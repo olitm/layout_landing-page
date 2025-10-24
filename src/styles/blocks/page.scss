@@ -25,9 +25,9 @@
 
     opacity: 0;
 
-    transition: opacity $duration ease;
-
     z-index: 100;
+
+    transition: opacity $duration ease;
 
     @include on-table {
       padding: 50px 72px;

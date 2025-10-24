@@ -1,11 +1,12 @@
 .menu {
   display: flex;
   flex-direction: column;
-  background-color: $backgroundColorMenu;
 
   overflow-y: auto;
 
   z-index: 100;
+
+  background-color: $backgroundColorMenu;
 
   &__top {
     display: flex;
