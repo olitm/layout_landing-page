@@ -3,6 +3,10 @@
   flex-direction: column;
   background-color: $backgroundColorMenu;
 
+  overflow-y: auto;
+
+  z-index: 100;
+
   &__top {
     display: flex;
     align-items: center;

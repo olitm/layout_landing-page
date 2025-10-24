@@ -2,7 +2,12 @@
   scroll-behavior: smooth;
   box-sizing: border-box;
 
+  &:has(.page__menu:target) {
+    overflow: hidden;
+  }
+
   &__body {
+    position: relative;
     margin: 0;
   }
 
@@ -21,6 +26,8 @@
     opacity: 0;
 
     transition: opacity $duration ease;
+
+    z-index: 100;
 
     @include on-table {
       padding: 50px 72px;

@@ -7,7 +7,7 @@
       content="width=device-width, initial-scale=1.0"
     />
     <title>The MET</title>
-    <link rel="icon" href="favicon.ico" type="image/x-icon" sizes="32x32"/>
+    <link rel="icon" href="favicon.ico" type="image/x-icon" sizes="32x32" />
     <link
       rel="preconnect"
       href="https://fonts.googleapis.com"
@@ -31,11 +31,11 @@
       href="src/styles/main.scss"
     >
   </head>
-  <body class="page__body">
+  <body class="page__body" id="top">
     <header class="header">
       <div class="container">
         <div class="header__top">
-          <a href="#" class="header__link">
+          <a href="#top" class="header__link">
             <img src="src/images/logo.svg" alt="The Met Logo" class="header__logo">
           </a>
           <div class="header__icons">
@@ -47,12 +47,12 @@
             </div>
           </div>
         </div>
-        <h1 class="header__title">
-          Welcome
-          <br>
-          to The MET
-        </h1>
       </div>
+      <h1 class="header__title">
+        Welcome
+        <br>
+        to The MET
+      </h1>
     </header>
 
     <aside class="menu page__menu" id="menu">
@@ -87,7 +87,6 @@
     <main class="main">
       <div class="container">
         <div class="main__content">
-
           <section class="about-us" id="about-us">
             <div class="about-us__top">
               <h5 class="about-us__subtitle">
@@ -148,14 +147,20 @@
             </p>
 
             <div class="now-on-view__collections">
-              <img
-                src="src/images/gallery-1.png"
-                alt="Collection"
-                class="now-on-view__photo now-on-view__photo--wide">
-              <img
-                src="src/images/gallery-2.png"
-                alt="Collection"
-                class="now-on-view__photo now-on-view__photo--square">
+              <a href="#" class="now-on-view__link-collection now-on-view__link-collection--wide">
+                <img
+                  src="src/images/gallery-1.png"
+                  alt="Collection"
+                  class="now-on-view__photo"
+                >
+              </a>
+              <a href="#" class="now-on-view__link-collection now-on-view__link-collection--square">
+                <img
+                  src="src/images/gallery-2.png"
+                  alt="Collection"
+                  class="now-on-view__photo"
+                >
+              </a>
             </div>
 
             <div class="now-on-view__content">
@@ -168,18 +173,27 @@
             </div>
 
             <div class="now-on-view__canva">
-              <img
-                src="src/images/collection-1.png"
-                alt="Collection canva 1"
-                class="now-on-view__canva-photo">
-              <img
-                src="src/images/collection-2.png"
-                alt="Collection canva 2"
-                class="now-on-view__canva-photo">
-              <img
-                src="src/images/collection-3.png"
-                alt="Collection canva 3"
-                class="now-on-view__canva-photo now-on-view__canva-photo--tablet--hide">
+              <a href="#" class="now-on-view__link-canva">
+                <img
+                  src="src/images/collection-1.png"
+                  alt="Collection canva 1"
+                  class="now-on-view__canva-photo"
+                >
+              </a>
+              <a href="#" class="now-on-view__link-canva">
+                <img
+                  src="src/images/collection-2.png"
+                  alt="Collection canva 2"
+                  class="now-on-view__canva-photo"
+                >
+              </a>
+              <a href="#" class="now-on-view__link-canva now-on-view__link-canva--tablet--hide">
+                <img
+                  src="src/images/collection-3.png"
+                  alt="Collection canva 3"
+                  class="now-on-view__canva-photo now-on-view__canva-photo--tablet--hide"
+                >
+              </a>
             </div>
 
             <div class="now-on-view__content">
@@ -192,14 +206,20 @@
             </div>
 
             <div class="now-on-view__collections">
-              <img
-                src="src/images/art-1.png"
-                alt="Art 1"
-                class="now-on-view__photo now-on-view__photo--square">
-              <img
-                src="src/images/art-2.png"
-                alt="Art 2"
-                class="now-on-view__photo now-on-view__photo--wide">
+              <a href="#" class="now-on-view__link-collection now-on-view__link-collection--square">
+                <img
+                  src="src/images/art-1.png"
+                  alt="Art 1"
+                  class="now-on-view__photo"
+                >
+              </a>
+              <a href="#" class="now-on-view__link-collection now-on-view__link-collection--wide">
+                <img
+                  src="src/images/art-2.png"
+                  alt="Art 2"
+                  class="now-on-view__photo"
+                >
+              </a>
             </div>
 
             <div class="now-on-view__content now-on-view__content--margin--bottom">
@@ -222,7 +242,7 @@
               More to Explore Online
             </h2>
             <div class="explore-online__wrapper">
-              <div class="explore-online__content">
+              <a href="#" class="explore-online__content">
                 <img
                   src="src/images/collection-area.png"
                   alt="Collection Area"
@@ -236,9 +256,9 @@
                     These collection areas study, exhibit, and care for the objects in The Met collection.
                   </p>
                 </div>
-              </div>
+              </a>
 
-              <div class="explore-online__content">
+              <a href="#" class="explore-online__content">
                 <img
                   src="src/images/travel.png"
                   alt="Travel"
@@ -253,9 +273,9 @@
                     historical perspective.
                   </p>
                 </div>
-              </div>
+              </a>
 
-              <div class="explore-online__content">
+              <a href="#" class="explore-online__content">
                 <img
                   src="src/images/virtual-group.png"
                   alt="Virtual Group"
@@ -271,7 +291,7 @@
                     led by a Museum guide.
                   </p>
                 </div>
-              </div>
+              </a>
             </div>
           </section>
 
@@ -289,10 +309,13 @@
                   <a href="tel:+1 212-535-7710" class="contact-us__info contact-us__info--phone">
                     +1 212-535-7710
                   </a>
-                  <p class="contact-us__info contact-us__info--address">
+                  <a
+                    href="https://maps.app.goo.gl/6hZZPBvsxcKCWRs38"
+                    target="_blank"
+                    class="contact-us__info contact-us__info--address">
                     1000 Fifth Avenue
                     <br>New York, NY 10028
-                  </p>
+                  </a>
                 </div>
                 <div class="contact-us__address">
                   <h4 class="contact-us__title">
@@ -301,15 +324,18 @@
                   <a href="tel:+1 212-923-3700" class="contact-us__info contact-us__info--phone">
                     +1 212-923-3700
                   </a>
-                  <p class="contact-us__info contact-us__info--address">
+                  <a
+                    href="https://maps.app.goo.gl/NJqsS5xreV2Q4Ha77"
+                    target="_blank"
+                    class="contact-us__info contact-us__info--address">
                     99 Margaret Corbin Drive
                     <br>Fort Tryon Park
                     <br>New York, NY 10040
-                  </p>
+                  </a>
                 </div>
               </div>
               <div class="contact-us__content-form">
-                <form class="form" method="post" action="">
+                <form class="form" onsubmit="this.reset(); return false;">
                   <label for="name">
                     <input
                       type="text"
@@ -318,6 +344,7 @@
                       placeholder="Name"
                       autocomplete="name"
                       class="form__field"
+                      title="Please enter your name"
                       required
                     >
                   </label>
@@ -329,18 +356,18 @@
                       placeholder="Email"
                       autocomplete="email"
                       class="form__field"
+                      title="Please enter your email address"
                       required
                     >
                   </label>
-                  <label for="message">
-                <textarea
-                  id="message"
-                  name="message"
-                  placeholder="Message"
-                  autocomplete="off"
-                  rows="6"
-                  class="form__field form__field--textarea"></textarea>
-                  </label>
+                  <textarea
+                    id="message"
+                    name="message"
+                    placeholder="Message"
+                    autocomplete="off"
+                    rows="6"
+                    title="Please enter your message here"
+                    class="form__field form__field--textarea"></textarea>
 
                   <input
                     type="submit"
