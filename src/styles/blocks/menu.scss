@@ -1,10 +1,8 @@
 .menu {
+  z-index: 100;
+  overflow-y: auto;
   display: flex;
   flex-direction: column;
-
-  overflow-y: auto;
-
-  z-index: 100;
 
   background-color: $backgroundColorMenu;
 
