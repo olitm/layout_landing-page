@@ -71,9 +71,5 @@
     }
 
     align-items: center;
-
-    &:has(.icon--phone:hover) .phone {
-      opacity: 1;
-    }
   }
 }

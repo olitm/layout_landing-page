@@ -13,7 +13,12 @@
 
   width: max-content;
   opacity: 0;
-  transition: opacity $duration ease;
+  visibility: hidden;
+
+  &:target {
+    opacity: 1;
+    visibility: visible;
+  }
 
   &__tel {
     display: flex;
