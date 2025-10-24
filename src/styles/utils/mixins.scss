@@ -52,6 +52,12 @@
   }
 }
 
+@mixin on-large-desktop {
+  @media (min-width: #{$bp-large}) {
+    @content;
+  }
+}
+
 @mixin page-grid {
   --columns: 2;
 

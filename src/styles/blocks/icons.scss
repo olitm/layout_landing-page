@@ -5,6 +5,11 @@
 
   &--phone {
     background-image: url(../images/icons/icon-phone.svg);
+
+    &:hover ~ .page__phone {
+      visibility: visible;
+      opacity: 1;
+    }
   }
 
   &--menu {

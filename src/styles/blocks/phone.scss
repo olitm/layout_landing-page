@@ -16,11 +16,6 @@
   visibility: hidden;
   opacity: 0;
 
-  &:target {
-    visibility: visible;
-    opacity: 1;
-  }
-
   &__tel {
     display: flex;
     flex-direction: column;
