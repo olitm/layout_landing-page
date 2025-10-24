@@ -1,12 +1,18 @@
 .phone {
   position: absolute;
   top: -25px;
-  right: 134px;
+  right: 82px;
+
+  @include on-table {
+    right: 134px;
+  }
+
+  @include on-desktop {
+    right: 134px;
+  }
 
   width: max-content;
-
   opacity: 0;
-
   transition: opacity $duration ease;
 
   &__tel {
