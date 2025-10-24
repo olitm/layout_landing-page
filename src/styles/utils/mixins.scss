@@ -53,7 +53,7 @@
 }
 
 @mixin on-large-desktop {
-  @media (min-width: #{$bp-large - 1}) {
+  @media (min-width: $bp-very-large) {
     @content;
   }
 }
