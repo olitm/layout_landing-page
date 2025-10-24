@@ -41,10 +41,6 @@
     flex-direction: column;
     row-gap: 8px;
 
-    opacity: 0;
-
-    pointer-events: none;
-
-    transition: opacity $duration ease;
+    transition: opacity $duration ease visible $duration ease;
   }
 }
