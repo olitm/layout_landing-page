@@ -20,6 +20,14 @@
   &__photo {
     width: 100%;
     margin-bottom: 24px;
+
+    cursor: pointer;
+
+    transition: transform $duration;
+
+    &:hover {
+      @include image-transform;
+    }
   }
 
   &__details {

@@ -15,6 +15,11 @@
     height: 100%;
     object-fit: cover;
     object-position: left;
+
+    cursor: pointer;
+
+    transition: transform $duration;
+
     &--square {
       grid-column: span 1;
 
@@ -37,6 +42,10 @@
       @include on-desktop {
         grid-column: span 8;
       }
+    }
+
+    &:hover {
+      @include image-transform;
     }
   }
 
@@ -67,6 +76,14 @@
       @include on-desktop {
         display: block;
       }
+    }
+
+    cursor: pointer;
+
+    transition: transform $duration;
+
+    &:hover {
+      @include image-transform;
     }
   }
 

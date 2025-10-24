@@ -67,3 +67,7 @@
     --columns: 12;
   }
 }
+
+@mixin image-transform {
+  transform: scale($scaleSize);
+}
