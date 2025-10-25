@@ -46,22 +46,28 @@
 
     transition: color $duration;
 
-    &--bottom {
-      padding-bottom: 4px;
-    }
-
-    &:hover::after {
+    &::after {
       content: '';
 
       position: absolute;
       bottom: 0;
+      left: 50%;
+      transform: translateX(-50%);
 
-      display: block;
-
-      width: 100%;
+      width: 0;
       height: 1px;
 
       background-color: $colorBorderHover;
+
+      transition: width $duration;
+    }
+
+    &:hover::after {
+      width: 100%;
+    }
+
+    &--bottom {
+      padding-bottom: 4px;
     }
 
     &--anchor {
